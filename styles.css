@@ -1,0 +1,59 @@
+html {
+        background: black;
+    
+}
+
+.statsWrapper {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.playerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boardWrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameBoard {
+    margin-top: 150px;
+    display: grid;
+    position: relative;
+    justify-content: center;
+    grid-template-rows: repeat(3, minmax(75px, 100px));
+    grid-template-columns: repeat(3, minmax(75px, 100px));
+    gap: 12px;
+}
+
+.gameCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.657);
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    font-size: 60px;
+}
+
+.gameCards:hover {
+    background-color: rgb(98, 166, 255);
+}
+
+.restart {
+
+    background-color: white;
+    color: rgba(0, 0, 0, 0.657);
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 40px;
+    width: 200px;
+    margin-top:20px;
+}
